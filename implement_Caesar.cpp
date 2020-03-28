@@ -42,18 +42,22 @@ void Caesar(char *plain, char *en, int num) {
 
 		//문자나 숫자인 경우
 		if (isalnum(*plain) != 0) {
-			//대문자 처리
-			if (isupper(*plain))
-				tmp = 'A';	//65
-			//소문자 처리
-			else if (islower(*plain))
-				tmp = 'a';	//97
+
 			//숫자 문자일 때
-			else if (isdigit(*plain))
+			if (*plain >= '0' && *plain <= '9')			//isdigit(*plain)
 				tmp = '0';	//48
 
+			//대문자 처리
+			else if (*plain >= 'A' && *plain <= 'Z')	//isupper(*plain)
+				tmp = 'A';	//65
+
+			//소문자 처리
+			else if (*plain >= 'a' && *plain <= 'z')	//islower(*plain)
+				tmp = 'a';	//97
+
+
 			//num 값 만큼 값을 변경 (예시 : plain = a, num = 5 --> en = f)
-			*en = (*plain - tmp + num) % (tmp>'0' ? 26:10) + tmp;
+			*en = (*plain - tmp + num) % (tmp>'0' ? 26 : 10) + tmp;
 		}
 
 		//문자도 숫자도 아닌 경우 (예시 : !,@,#,$,%,... )
