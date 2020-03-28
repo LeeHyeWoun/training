@@ -40,7 +40,7 @@ void Caesar(char *plain, char *en, int num) {
 	//입력한 문자 길이만큼 반복
 	for (i=0; *plain; en++, plain++, i++) {
 
-		//문자나 숫자인 경우
+		//숫자나 문자인 경우
 		if (isalnum(*plain) != 0) {
 
 			//숫자 문자일 때
