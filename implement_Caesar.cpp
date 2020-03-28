@@ -14,7 +14,9 @@ using namespace std;
 선택 : 소스코드 방식 - 시저암호
 */
 
-void Caesar(char *in, char *en, int num); //평문과 얼만큼 평행이동할 지 입력
+
+//함수 선언
+void Caesar(char *plain, char *en, int num);
 
 int main() {
 	char en[100] = "";	//암호문
@@ -33,6 +35,11 @@ int main() {
 	return 0;
 }
 
+/*
+* plain	: 평문 매개변수
+* en	: 암호문 매개변수이자 출력해야할 값
+* num	: 평행 이동할 정도
+*/
 void Caesar(char *plain, char *en, int num) {
 	char tmp;
 	int i;
@@ -44,7 +51,7 @@ void Caesar(char *plain, char *en, int num) {
 		if (isalnum(*plain) != 0) {
 
 			//숫자 문자일 때
-			if (*plain >= '0' && *plain <= '9')			//isdigit(*plain)
+			if (*plain >= '0' && *plain <= '9')		//isdigit(*plain)
 				tmp = '0';	//48
 
 			//대문자 처리
