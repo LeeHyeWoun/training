@@ -1,5 +1,4 @@
-# 2020년 1학기 : 4학년
-------------------------
+<div style="text-align: right"> `2020년 1학기 : 4학년`</div>
 > <p><strong>implement_Caesar.cpp</strong></p>
 > 수업 : 현대암호실습및응용  
 > 날짜 : 2020.03.26. (금) 2주차  
@@ -9,8 +8,7 @@
 
 <br><br><br><br>
 
-# 2019년 1학기 : 3학년
-------------------------
+<div style="text-align: right"> `2019년 1학기 : 3학년` </div>
 > <p><strong>UDP_Socket.cpp</strong></p>
 > 수업 : 윈도우즈보안과악성코드기초  
 > 날짜 : 2019.04.16.  
