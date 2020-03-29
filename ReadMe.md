@@ -1,3 +1,5 @@
+`alert('즐기면서 하세요.')`<br>
+`2020년 1학기 : 4학년`<br>
 2020년 1학기 : 4학년  
 > <p><strong>implement_Caesar.cpp</strong></p>
 > 수업 : 현대암호실습및응용  
