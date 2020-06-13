@@ -11,7 +11,7 @@
 > 날짜 : 2020.06.11. (금) 12주차<br>
 > 과제 : SHA-256 해쉬 값을 Brute Force Attack으로 원문 획득<br>
 > 기능 : 입력한 해쉬 값과 같은 값이 나올 때까지 'aaaaaa'부터 'zzzzzz'까지 6자리 소문자 조합의 문자열의 SHA-256 해쉬 값을 구합니다.<br>
-<img src="https://user-images.githubusercontent.com/48902155/84561551-47cd0f00-ad88-11ea-97f1-8882d78a5457.PNG" width="70%"></img>  
+<img src="https://user-images.githubusercontent.com/48902155/84561638-26205780-ad89-11ea-8327-0834e1f59be7.png" width="70%"></img>  
 
 <br><br><br><br>
 
